@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gopnik dance</title>
+    <style>
+        body{
+            background-image: url("badneighbothdo.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-y: -200px;
+        }
+
+        .bearDance{
+            width: 250px;
+            height: 330px;
+            float: right;
+            margin-top: 400px;
+            margin-right: 200px;
+            background-image: url("beardancestrip.png");
+            animation: bearDance infinite steps(10) 0.5s;
+        }
+
+        @keyframes bearDance {
+            0%{
+                background-position: 0px;
+            }
+            100%{
+                background-position: 2500px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bearDance">
+        
+    </div>
+</body>
+</html>
